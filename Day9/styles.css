@@ -1,0 +1,110 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* Header container */
+header {
+  background-color: #24292e; /* GitHub's dark header color */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* nameHeadline container */
+#nameHeadline {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0366d6, #28a745); /* GitHub-like gradient */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
+
+/* h1 inside nameHeadline */
+#nameHeadline h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  font-size: 2.5rem; /* Large font size */
+  font-weight: bold; /* Bold text */
+  color: #ffffff; /* White text color */
+  margin: 0; /* Remove default margin */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  background: linear-gradient(135deg, #ffffff, #f8f9fa); /* Gradient for text */
+  -webkit-background-clip: text; /* Clip background to text */
+  -webkit-text-fill-color: transparent; /* Transparent text color */
+}
+
+/* Optional: Add a hover effect */
+#nameHeadline:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+h1{
+  font-size: 50px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 13px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.cards {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px; /* Slightly more rounded corners for a smoother look */
+  border: 2px solid #e0e0e0; /* Softer border color for a more modern feel */
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease; /* More gradual transition */
+  box-shadow: 0px 10px 15px rgba(255, 165, 0, 0.3); /* Softer, more subtle shadow with transparency */
+  background-color: #fff; /* Ensure a white background by default */
+}
+
+.cards:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover for a more dynamic feel */
+  box-shadow: 0px 15px 25px rgba(255, 165, 0, 0.4); /* Stronger shadow for hover */
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px; /* Add rounded corners to the image */
+  object-fit: cover; /* Ensures the image is cropped nicely to fit within the container */
+  transition: transform 0.3s ease; /* Smooth transition for the image */
+  padding: .5rem;
+}
+
+.cards:hover img {
+  transform: scale(1.05); /* Slight zoom effect for the image on hover */
+}
+
+a{
+ margin-bottom: 2px;
+}
+.search{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  gap: 4px;
+}
+input{
+border-radius: 10px;  
+padding: .4rem;
+width: auto;
+}
+
+button{
+  background: linear-gradient(135deg, #0366d6, #28a745);  
+  border-radius: 10px;
+}
