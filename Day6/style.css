@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#root{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter{
+ height: auto;
+ width: 200px;
+ background-color: aliceblue;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+h1{
+  box-shadow: 0px 0px 15px rgb(20, 117, 149);
+}
+
+button{
+  height: 40px;
+  background-color: orange;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px green;
+}
+
